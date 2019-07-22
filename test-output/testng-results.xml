@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTestSuite" duration-ms="34447" started-at="2019-07-19T08:38:43Z" finished-at="2019-07-19T08:39:18Z">
+    <groups>
+    </groups>
+    <test name="ChromeBrowserTest" duration-ms="34447" started-at="2019-07-19T08:38:43Z" finished-at="2019-07-19T08:39:18Z">
+      <class name="com.gmail.testScripts.Test_LoginPage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="setUp" is-config="true" duration-ms="6741" started-at="2019-07-19T08:38:43Z" finished-at="2019-07-19T08:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializePageObjects()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="initializePageObjects" is-config="true" duration-ms="203" started-at="2019-07-19T08:38:50Z" finished-at="2019-07-19T08:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method status="PASS" signature="userEntersCorrectCredentials()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="userEntersCorrectCredentials" duration-ms="4299" started-at="2019-07-19T08:38:50Z" finished-at="2019-07-19T08:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEntersCorrectCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="2358" started-at="2019-07-19T08:38:55Z" finished-at="2019-07-19T08:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="setUp" is-config="true" duration-ms="4205" started-at="2019-07-19T08:38:57Z" finished-at="2019-07-19T08:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userEntersInvalidUserName()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="userEntersInvalidUserName" duration-ms="3166" started-at="2019-07-19T08:39:01Z" finished-at="2019-07-19T08:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEntersInvalidUserName -->
+        <test-method status="PASS" signature="initializePageObjects()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="initializePageObjects" is-config="true" duration-ms="0" started-at="2019-07-19T08:39:01Z" finished-at="2019-07-19T08:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="2372" started-at="2019-07-19T08:39:04Z" finished-at="2019-07-19T08:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="setUp" is-config="true" duration-ms="4153" started-at="2019-07-19T08:39:07Z" finished-at="2019-07-19T08:39:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializePageObjects()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="initializePageObjects" is-config="true" duration-ms="0" started-at="2019-07-19T08:39:11Z" finished-at="2019-07-19T08:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method status="PASS" signature="userEntersValidUserNameButInvalidPassword()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="userEntersValidUserNameButInvalidPassword" duration-ms="4558" started-at="2019-07-19T08:39:11Z" finished-at="2019-07-19T08:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEntersValidUserNameButInvalidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.testScripts.Test_LoginPage@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="2355" started-at="2019-07-19T08:39:15Z" finished-at="2019-07-19T08:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmail.testScripts.Test_LoginPage -->
+    </test> <!-- ChromeBrowserTest -->
+  </suite> <!-- SmokeTestSuite -->
+</testng-results>
